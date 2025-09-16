@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
+        <nav class="navbar">
+            <div class="logo">Welcome</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div>
+                <a href="https://github.com/presidentjacob" target="_blank">
+                    <img src="link_images/github.png" alt="GitHub" class="sites">
+                </a>
+                <a href="https://www.linkedin.com/in/jacob-yepez-6346542b9" target="_blank">
+                    <img src="link_images/linkedin.png" alt="LinkedIn" class="sites">
+                </a>
+            </div>
+        </nav>
+        <!--
+        <body class="light-theme">
+        <h1>Welcome!</h1>
+        <p id=""msg">Current tasks:</p>
+        <ul id="task-list">
+            <li class="list">Add visual styles</li>
+            <li class="list">Add light and dark themes</li>
+            <li class="list">Enable switching the theme</li>
+        </ul>
+        <div>
+            <button class="btn">Toggle Theme</button>
+        </div>
+        <script src="app.js"></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript> */ -->
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2><u>Hi, I'm Jacob Yepez</u></h2>
+                    <p> I am a software engineer with a passion for creating innovative solutions and learning new technologies.
+                        I was first introduced to programming in middle school where I took my first coding class. Since then, I have been fascinated by
+                        the ways code can solve real-world problems. I enjoy working on projects that challenge me to learn and grow, from building
+                        web applications to developing computer applications, and I am always looking for new opportunities to expand my skill set. 
+                        Now, I am currently a student at the University of Colorado, Colorado Springs, pursuing a degree in Computer Science, where I have greatly refined
+                        my programming skills and gained a deeper understanding of deeper computer science concepts.
+                        <br><br>In my free time, I enjoy playing video games, watching movies, and learning new information, whether it's related to technology or not.
+                        I am excited to continue my journey as a software developer and contribute to projects that make a positive impact on the world.
+                        I hope to connect with like-minded individuals and collaborate on exciting projects in the future and grow along side them.
+                        Please feel free to explore my website to learn more about my projects and experience, and don't hesitate to reach out if you have any questions or opportunities for collaboration!
+
+                    </p>
+                </div>
+                <div class="jacob_photo">
+                    <img src="other_images/jacobyepez.png" alt="Jacob Yepez">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-carousel">
+                <button class="prev">&lt;</button>
+
+                <div class="project-slide">
+                    <img src="projects_images/overload_digest.png" alt="Overload Digest">
+                    <h3>Overload Digest - Python News Scraper & GUI Application</h3>
+                    <p>A Python-based GUI application that aggregates news from multiple sources and presents it in a continuously scrolling newsfeed.
+                        Built using Tkinter, Requests, BeautifulSoup, and Selenium, the app automatically scrapes political and tech articles from sources like
+                        CNN, Fox News, NPR, TechCrunch, and BBC.<br><br>
+                        Key Features:<br></p>
+                        <ul>
+                            <li>Dynamically scrapes articles from multiple sources, handling both static and dynamically loaded content.</li>
+                            <li>Threaded background scraping ensures the GUI remains responsive while updating content in real-time.</li>
+                            <li>Auto-scrolling newsfeed simulates a modern news app experience.</li>
+                            <li>Respects robots.txt and uses user-agent headers for ethical scraping.</li>
+                            <li>Modular design allows easy addition of new news sources.</li><br>
+                        </ul>
+                        <p>A usable version of Overload Digest can be found <a href="https://github.com/presidentjacob/Overload_Digest">here</a>!</p>
+                </div>
+
+                <div class="project-slide">
+                    <img src="projects_images/rom_launcher.png" alt="ROM Launcher">
+                    <h3>ROM Launcher - Tauri2.0, TypeScript, and Python Application</h3>
+                    <p>A multi-language application (Python, TypeScript, Rust, HTML) made with a peer that uses Tauri2.0 to create an application
+                        that can automatically scan for ROMs in a users files and run them using the appropriate emulator from one instance.<br><br>
+                        Key Features:<br></p>
+                        <ul>
+                            <li>User memory, remembers username and games already scanned.</li>
+                            <li>Uses a Twitch API to collect information on a game such as box art.</li>
+                            <li>Links games to their respective emulator to launch a game.</li><br>
+                        </ul>
+                        A usable version of ROM Launcher can be found <a href="https://github.com/Abb320/Rom_Launcher">here</a>!</p>
+                </div>
+
+                <button class="next">&gt;</button>
+            </div>
+        </section>
+
+        <section id="resume" class="resume-section">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <div class="resume-text">
+                    <p>Click the image to view my full resume!</p>
+                    <p>Download my resume by clicking <a href="other_images/Jacob Yepez - Resume.pdf" target="_blank">here</a>!</p>
+                </div>
+                <div class="resume-image">
+                    <a href="other_images/Jacob Yepez - Resume.pdf" target="_blank">
+                        <img src="other_images/jacobyepez - resume.png" alt="Resume">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p>You can reach me directly at:</p>
+            <ul>
+                <li><strong>Email:</strong> jacobyepez04@gmail.com</li>
+                <li><strong>Phone:</strong> (719) 799-0955</li>
+            </ul>
+
+            <h3>Or send me a message:</h3>
+            <form id="contact-form">
+                <input type="text" name="user_name" placeholder="Your Name" required>
+                <input type="email" name="user_email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+
+            <p id="form-status" class="form-status"></p>
+        </section>
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="contact.js"></script>
+    </body>
+</html>
